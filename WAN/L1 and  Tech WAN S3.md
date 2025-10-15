@@ -1,0 +1,83 @@
+
+---
+
+## 🌐 WAN Technologies – Lesson Summary
+
+### 1️⃣ Layer 1 (Physical Layer) Concepts
+
+#### 🔹 Key Elements
+
+- **Modulation (e.g., ADSL)**:  
+    Converts digital signals into analog forms for transmission over physical media (like telephone lines).
+    
+- **Multiplexing (MUX)**:  
+    Technique to send multiple transmissions over a single physical medium.
+    
+    - **Time-Division Multiplexing (TDM)**: Shares the link by **time slots**.
+        
+        - Example: Multiple users send data one after another rapidly.
+            
+    - **Frequency-Division Multiplexing (FDM)**: Shares the link by **frequency ranges**.
+        
+        - Example: Used in **radio** and **TV broadcasting**.
+            
+
+#### 🔹 DWDM (Dense Wavelength Division Multiplexing)
+
+- Similar concept to FDM but uses **different wavelengths of light** through fiber optic cables.
+    
+- Allows **many optical signals** to travel simultaneously over one fiber.
+    
+- Can be compared to **time multiplexing**, as both increase link efficiency by sharing one medium.
+    
+
+---
+
+### 2️⃣ Legacy WAN Technologies
+
+#### 🔹 Frame Relay (Relais de Trame)
+
+- Uses **virtual circuits** (PVC or SVC) instead of dedicated physical circuits.
+    
+- Was cheaper than older leased-line technologies.
+    
+- Still packet-switched, suitable for connecting multiple sites efficiently.
+    
+
+#### 🔹 ATM (Asynchronous Transfer Mode)
+
+- Based on **asynchronous transfer** using **fixed-size cells** (53 bytes).
+    
+- Differentiates between **types of services** (voice, video, data).
+    
+- Sends cells **continuously**, even if no data is available — helps maintain synchronization.
+    
+- Uses **two parallel buses** and guarantees timing precision, making it suitable for real-time traffic.
+    
+
+---
+
+### 3️⃣ Modern WAN Connectivity Options
+
+|Type|Description|Examples|
+|---|---|---|
+|**Dedicated WAN**|Private, high-performance connection between sites|Leased lines, Broadband|
+|**Switched WAN**|Uses a shared network with logical circuits|Frame Relay, MPLS|
+|**Internet-based WAN**|Uses the public Internet for connectivity|Broadband VPN, SD-WAN|
+|**Access Types**|Can be **wired** (Fiber, Copper) or **wireless** (4G, 5G, Satellite)|–|
+
+---
+
+### 4️⃣ WAN Ethernet
+
+- Modern enterprises now adopt **Ethernet-based WAN** solutions for simplicity and scalability.
+    
+- Examples used by **Tunisie Télécom**:
+    
+    - **Metro Ethernet (Metro-E)**: High-speed Ethernet across a metropolitan area.
+        
+    - **EoMPLS (Ethernet over MPLS)**: Encapsulates Ethernet frames inside MPLS for transport over a service provider backbone.
+        
+
+---
+
