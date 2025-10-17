@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MEA&CIS_CybersecurityEssentials/Cybersecurity Threats, Vulnerabilities, and Attacks/Common Threats.md",
+                "file": "Security/TP/OpenSSL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Common Threats"
+              "title": "OpenSSL"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ed8256b474161006",
@@ -172,10 +171,13 @@
   },
   "active": "5e3d575dbf3343bb",
   "lastOpenFiles": [
+    "images/Pasted image 20251017134545.png",
+    "Security/TP/ACL.md",
+    "Security/TP/OpenSSL.md",
+    "MEA&CIS_CybersecurityEssentials/Cybersecurity Threats, Vulnerabilities, and Attacks/Common Threats.md",
     "images/Pasted image 20251015210020.png",
     "images/Pasted image 20251015204350.png",
     "projet integration EVE.md",
-    "MEA&CIS_CybersecurityEssentials/Cybersecurity Threats, Vulnerabilities, and Attacks/Common Threats.md",
     "CHEAT SHEED/CHEAT SHEET SW.md",
     "MEA&CIS_CybersecurityEssentials/Cybersecurity Threats, Vulnerabilities, and Attacks",
     "MEA&CIS_CybersecurityEssentials",
@@ -190,14 +192,12 @@
     "images/Pasted image 20251013183157.png",
     "images/Pasted image 20251013182712.png",
     "images/Pasted image 20251013181230.png",
-    "images/Pasted image 20251013180809.png",
     "CHEAT SHEED/Cheat sheet ENSP.md",
     "CHEAT SHEED/CHEAT SHEET ROUTER(1).md",
     "CHEAT SHEED",
     "CHEAT SHEED/CHEAT SHEETS WELC.md",
     "CHEAT SHEED/CHEAT SHEET FW FORTIGATE.md",
     "basic initial device configuration.md",
-    "Security/TP/ACL.md",
     "WAN/O&M S4.md",
     "Security/Cours",
     "Security/TP",
