@@ -209,8 +209,6 @@ Cyber threats are classified to help organizations evaluate their likelihood and
     - Compliance violations
         
 
----
-Here’s a **clean, structured English version** of your next section for Obsidian in Markdown:
 
 ---
 

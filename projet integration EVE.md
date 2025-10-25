@@ -55,3 +55,16 @@ vlan ips
 
 ![[Pasted image 20251013193738.png]]
 
+
+
+![[Pasted image 20251025113325.png]]
+
+![[Pasted image 20251025113338.png]]
+
+
+
+
+
+![[Pasted image 20251025120259.png]]
+
+
