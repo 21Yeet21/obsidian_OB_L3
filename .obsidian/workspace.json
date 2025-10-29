@@ -8,108 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4218b8665cbb2c88",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WAN/S5.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "S5"
-            }
-          },
-          {
-            "id": "90a6792dd3d637bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WAN/L1 and  Tech WAN S3.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "L1 and  Tech WAN S3"
-            }
-          },
-          {
-            "id": "6c7fc4b3200cc938",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WAN/S5.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "S5"
-            }
-          },
-          {
-            "id": "ab017a3783697cd7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
-            }
-          },
-          {
             "id": "c3d17e0c1eec5dd8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WAN/Module 2 MPLS.md",
+                "file": "Data Center/LABS/LAB 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,11 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Module 2 MPLS"
+              "title": "LAB 1"
+            }
+          },
+          {
+            "id": "98c0e81614169fc3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Center/LABS/LAB 1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "LAB 1"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,7 +113,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ed8256b474161006",
@@ -276,52 +205,53 @@
       "bases:Create new base": false
     }
   },
-  "active": "c3d17e0c1eec5dd8",
+  "active": "98c0e81614169fc3",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Untitled 1.md",
+    "English/Untitled.md",
+    "Data Center/LABS/LAB 1.md",
+    "Data Center/LABS/LAB 0.md",
+    "Data Center/COURS/Docker 2.0.md",
+    "Data Center/COURS/Dock.md",
+    "Data Center/COURS/DataCenter.md",
+    "Security/TP/ACL.md",
+    "Security/Cours/S1.md",
+    "IOT/DVRT.md",
+    "IOT/Resume Twil.md",
+    "IOT/Resume 9sir.md",
+    "IOT/S1.md",
+    "English/cours 1.md",
+    "English/tp.md",
+    "projet integration EVE.md",
+    "WAN/Module 2 MPLS.md",
     "WAN/S5.md",
     "WAN/S4.md",
     "WAN/S3.md",
     "WAN/S2.md",
     "WAN/S1.md",
-    "Data Center/LABS/LAB 1.md",
     "Data Center/COURS",
     "Data Center/LABS/Extras.md",
     "Data Center/LABS",
     "Data Center",
-    "WAN/Module 2 MPLS.md",
-    "projet integration EVE.md",
     "images/Pasted image 20251025120259.png",
     "images/Pasted image 20251025113338.png",
     "images/Pasted image 20251025113325.png",
     "WAN/Module 1 Res.md",
     "images/Pasted image 20251024191533.png",
-    "Data Center/COURS/DataCenter.md",
-    "Untitled.md",
-    "Untitled 1.md",
     "Security/TP/OpenSSL.md",
-    "Security/TP/ACL.md",
-    "Security/Cours/S1.md",
     "images/WAN_Page_56.png",
     "images/WAN_Page_53.png",
     "images/WAN_Page_47.png",
     "images/WAN_Page_46.png",
     "images/WAN_Page_36.png",
     "images/WAN_Page_18.png",
-    "English/tp.md",
-    "English/Untitled.md",
     "English",
-    "IOT/S1.md",
     "IOT",
-    "Metier/CV.md",
     "Metier",
-    "Prep/Eth-Trunk , Css , istack.md",
-    "MEA&CIS_CybersecurityEssentials/Cybersecurity Threats, Vulnerabilities, and Attacks/Deception.md",
-    "MEA&CIS_CybersecurityEssentials/Cybersecurity Threats, Vulnerabilities, and Attacks/Common Threats.md",
-    "CHEAT SHEED/CHEAT SHEET SW.md",
     "MEA&CIS_CybersecurityEssentials/Cybersecurity Threats, Vulnerabilities, and Attacks",
     "MEA&CIS_CybersecurityEssentials",
     "images",
-    "CHEAT SHEED/basic initial device configuration.md",
     "CHEAT SHEED"
   ]
 }
