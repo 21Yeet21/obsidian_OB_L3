@@ -2,241 +2,248 @@
 
 ---
 
-## 🧾 **Lab Summary: Docker Introduction**
+## 🧱 **Objectif du lab**
 
-### 🧱 **Objective**
+Apprendre à **créer, gérer et optimiser des images Docker**, à la fois :
 
-This lab introduces **Docker fundamentals**, using a **CentOS 7 VM** to explore:
-
-- Docker Engine operation
+- à partir d’un **conteneur existant** ;
     
-- Images and containers
+- via un **Dockerfile** ;
     
-- Docker Hub and image registries
-    
-- Container isolation and management
+- et à comprendre la **structure des couches**, la **persistance**, et la **limitation des ressources**.
     
 
 ---
 
-### ⚙️ **1. Installation and First Container**
+## ⚙️ **1. Création d’une image à partir d’un conteneur**
 
-**Steps:**
-
-- Removed old Docker versions
-    
-- Added the official Docker repository
-    
-- Installed the required packages:
+1. Lancer un conteneur Alpine :
     
     ```bash
-    sudo yum install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+    docker container run -it alpine ash
     ```
     
-- Enabled and started Docker:
+2. Installer un paquet (ex : figlet) :
     
     ```bash
-    sudo systemctl enable docker --now
+    apk add figlet
     ```
     
-
-**Test:**
-
-- Ran the first container:
+3. Vérifier les changements :
     
     ```bash
-    docker run hello-world
+    docker container diff <ID>
+    ```
+    
+    → `A` (ajouté), `C` (modifié), `D` (supprimé)
+    
+4. Créer une image à partir du conteneur :
+    
+    ```bash
+    docker container commit <ID>
+    ```
+    
+5. Taguer l’image :
+    
+    ```bash
+    docker image tag <ID> ourfiglet
     ```
     
 
-✅ **Result:** Docker downloaded the image from Docker Hub, created a container, executed it, and displayed the “Hello from Docker!” message.
+💡 Résultat : une image personnalisée nommée `ourfiglet` basée sur Alpine.
 
 ---
 
-### 🌐 **2. Running a Web Container**
+## 🧾 **2. Création d’image via un Dockerfile**
 
-**Command:**
+### Exemple Node.js “Hello World”
 
-```bash
-docker run -d -p 80:80 docker/getting-started
+```dockerfile
+FROM alpine
+RUN apk update && apk add nodejs
+COPY . /app
+WORKDIR /app
+CMD ["node", "index.js"]
 ```
 
-**Explanation:**
+**Étapes :**
 
-- `-d` → run in background (detached mode)
+1. Créer `index.js` :
     
-- `-p 80:80` → map port 80 of the host to port 80 in the container
-    
-- Opens the Docker tutorial web app via:
-    
+    ```js
+    var os = require("os");
+    console.log("hello from " + os.hostname());
     ```
-    http://localhost/tutorial/
+    
+2. Construire l’image :
+    
+    ```bash
+    docker image build -t hello:v0.1 .
+    ```
+    
+3. Lancer le conteneur :
+    
+    ```bash
+    docker container run hello:v0.1
     ```
     
 
 ---
 
-### 📦 **3. Working with Docker Images**
+## 🧩 **3. Couches d’images (Layers)**
 
-**Pulling an image:**
+Chaque **instruction du Dockerfile crée une couche** :
+
+- `FROM` → couche de base
+    
+- `RUN` → ajout de dépendances
+    
+- `COPY` → ajout du code
+    
+
+Lister les couches :
 
 ```bash
-docker image pull alpine
+docker image history <IMAGE_ID>
 ```
 
-**Listing images:**
+💡 Lors d’une modification (ex : `index.js` mis à jour en `v0.2`),  
+Docker **réutilise les couches en cache** si rien n’a changé → gain de temps et d’espace.
 
-```bash
-docker image ls
-```
+---
 
-**Inspecting an image:**
+## 🔍 **4. Inspection d’images**
+
+Afficher toutes les infos :
 
 ```bash
 docker image inspect alpine
 ```
 
-✅ **Result:** Alpine (a minimal Linux image) is lightweight and ideal for testing.
-
----
-
-### 🧰 **4. Running and Exploring Containers**
-
-**Examples:**
-
-- Run a command:
-    
-    ```bash
-    docker container run alpine ls -l
-    ```
-    
-- Execute inline:
-    
-    ```bash
-    docker container run alpine echo "hello from alpine"
-    ```
-    
-- Start an interactive shell:
-    
-    ```bash
-    docker container run -it alpine /bin/sh
-    ```
-    
-
-**Concept:**
-
-- Each command creates a **new isolated container instance**.
-    
-- Once the command ends, the container **stops automatically**.
-    
-
----
-
-### 🔒 **5. Container Isolation**
-
-**Test:**
-
-- Created a file in one container:
-    
-    ```bash
-    docker container run -itd --name testco alpine
-    docker container attach testco
-    echo hello > hello.txt
-    ```
-    
-- Then ran another Alpine container and confirmed the file wasn’t there.
-    
-
-✅ **Conclusion:**  
-Each container has its **own isolated filesystem and process space**, even when based on the same image.
-
----
-
-### 🧩 **6. Managing Containers**
-
-**List containers:**
+Afficher uniquement les couches :
 
 ```bash
-docker container ls -a
+docker image inspect --format "{{ json .RootFS.Layers }}" hello:v0.2
 ```
 
-**Reattach or execute commands:**
-
-```bash
-docker container exec <container_id> ls
-docker container attach <container_id>
-```
-
-**Keep a container running (detach without stopping):**
-
-- `Ctrl + P`, then `Ctrl + Q`
-    
-
-**Stop or kill a container:**
-
-```bash
-docker stop <container_id>
-docker kill <container_id>
-```
-
-**Difference:**
-
-- `stop` → sends SIGTERM, then SIGKILL after timeout
-    
-- `kill` → sends SIGKILL immediately
-    
+→ On peut voir que plusieurs images partagent les **mêmes couches de base**.
 
 ---
 
-### 🧾 **7. Naming Containers**
+## 🌐 **5. Exemple complet avec NGINX**
 
-To manage containers easily:
+### Structure :
 
-```bash
-docker container run -it --name test1 alpine /bin/ash
+```
+nginx/
+├── Dockerfile
+└── files/
+    ├── nginx.conf
+    ├── default.conf
+    └── html.tar.gz
 ```
 
-Then use the name in other commands:
+### Dockerfile :
 
-```bash
-docker container top test1
-docker container stats test1
-docker container stop test1
-docker container rm test1
+```dockerfile
+FROM alpine:latest
+LABEL maintainer="Elies Jebri <elies.jebri@gmail.com>"
+RUN apk add --update nginx && rm -rf /var/cache/apk/* && mkdir -p /tmp/nginx/
+COPY files/nginx.conf /etc/nginx/nginx.conf
+COPY files/default.conf /etc/nginx/conf.d/default.conf
+ADD files/html.tar.gz /usr/share/nginx/
+EXPOSE 80/tcp
+ENTRYPOINT ["nginx"]
+CMD ["-g", "daemon off;"]
 ```
 
-✅ **Tip:** You must stop a container before removing it.
+### Construction et exécution :
+
+```bash
+docker image build -t eliesjebri/mynginx:1.0 .
+docker container run -d -p 8080:80 --name mynginx1 eliesjebri/mynginx:1.0
+```
+
+→ Accès via `http://localhost:8080` → page "Hello world! This is being served from Docker."
 
 ---
 
-### 💡 **8. Key Takeaways**
+## 🧭 **6. ENTRYPOINT vs CMD**
 
-- **Images** = Blueprints for containers
+- `ENTRYPOINT` définit le **binaire principal** (ex : `nginx`)
     
-- **Containers** = Isolated runtime environments
+- `CMD` définit les **arguments par défaut**
     
-- **Docker Engine** = Runs and manages containers
-    
-- **Docker Hub** = Central repository for sharing images
-    
-- **Isolation** = Each container runs independently, ensuring security and separation
-    
+
+Exemple :
+
+```bash
+docker run mynginx -v
+```
+
+→ équivaut à `nginx -v`
+
+---
+
+## ⚡ **7. Limitation des ressources**
+
+Par défaut, un conteneur peut utiliser **toutes les ressources** de l’hôte.
+
+### Mise à jour des limites :
+
+```bash
+docker container update --cpu-shares 512 --memory 128M --memory-swap 256M nginx-test
+```
+
+### Au lancement :
+
+```bash
+docker run -d --name nginx-test --cpu-shares 512 --memory 128M -p 8081:80 nginx
+```
 
 ---
 
-### ✅ **Final Results**
+## 🧹 **8. Nettoyage des conteneurs**
 
-After completing this lab, you can:
+Lister tous les conteneurs :
 
-- Install and configure Docker
-    
-- Pull and manage images from Docker Hub
-    
-- Run and interact with containers
-    
-- Understand container lifecycle and isolation
-    
-- Manage containers using CLI commands
-    
+```bash
+docker container ls -aq
+```
+
+Arrêter et supprimer :
+
+```bash
+docker container stop $(docker container ls -aq)
+docker container rm $(docker container ls -aq)
+```
+
+Supprimer les conteneurs arrêtés :
+
+```bash
+docker container prune
+```
 
 ---
+
+## ✅ **Résumé général**
+
+|Concept|Commande principale|Résultat|
+|---|---|---|
+|Créer une image depuis conteneur|`docker commit`|Image locale|
+|Créer via Dockerfile|`docker build`|Image versionnée|
+|Exécuter conteneur|`docker run`|Application lancée|
+|Voir les couches|`docker history`|Structure de l’image|
+|Inspecter image|`docker inspect`|Détails JSON|
+|Limiter ressources|`docker run --memory`|Conteneur isolé|
+|Nettoyer conteneurs|`docker prune`|Espace libéré|
+
+---
+
+📘 **Source :**  
+**Lab – Docker Images (v24)** – _Elies Jebri_  
+Documentation officielle : [https://docs.docker.com](https://docs.docker.com)
+
+---
+
+Souhaitez-tu que je te crée aussi une **fiche pratique de commandes Docker** (avec explication courte + exemple) pour ce même lab ?

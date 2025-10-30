@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5b7fed6c269bb19b",
+        "id": "0db4edb95dfa467a",
         "type": "tabs",
         "children": [
           {
-            "id": "c3d17e0c1eec5dd8",
+            "id": "59b00acc1405544f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Center/LABS/LAB 1.md",
+                "file": "Data Center/COURS/DataCenter.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,35 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "LAB 1"
-            }
-          },
-          {
-            "id": "98c0e81614169fc3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Center/LABS/LAB 1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "LAB 1"
+              "title": "DataCenter"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ed8256b474161006",
@@ -205,13 +179,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "98c0e81614169fc3",
+  "active": "59b00acc1405544f",
   "lastOpenFiles": [
+    "Data Center/LABS/LAB 4.md",
+    "Data Center/LABS/LAB 2.md",
+    "Data Center/LABS/LAB 1.md",
+    "Data Center/LABS/LAB 0.md",
+    "Data Center/LABS/Extras.md",
     "Untitled.md",
     "Untitled 1.md",
     "English/Untitled.md",
-    "Data Center/LABS/LAB 1.md",
-    "Data Center/LABS/LAB 0.md",
     "Data Center/COURS/Docker 2.0.md",
     "Data Center/COURS/Dock.md",
     "Data Center/COURS/DataCenter.md",
@@ -229,17 +206,13 @@
     "WAN/S4.md",
     "WAN/S3.md",
     "WAN/S2.md",
-    "WAN/S1.md",
     "Data Center/COURS",
-    "Data Center/LABS/Extras.md",
     "Data Center/LABS",
     "Data Center",
     "images/Pasted image 20251025120259.png",
     "images/Pasted image 20251025113338.png",
     "images/Pasted image 20251025113325.png",
-    "WAN/Module 1 Res.md",
     "images/Pasted image 20251024191533.png",
-    "Security/TP/OpenSSL.md",
     "images/WAN_Page_56.png",
     "images/WAN_Page_53.png",
     "images/WAN_Page_47.png",
