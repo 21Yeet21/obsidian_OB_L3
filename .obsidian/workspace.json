@@ -8,12 +8,20 @@
         "type": "tabs",
         "children": [
           {
+<<<<<<< Updated upstream
             "id": "59b00acc1405544f",
+=======
+            "id": "c3d17e0c1eec5dd8",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< Updated upstream
                 "file": "Data Center/COURS/DataCenter.md",
+=======
+                "file": "Data Center/LABS/LAB 1.md",
+>>>>>>> Stashed changes
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +36,42 @@
                 }
               },
               "icon": "lucide-file",
+<<<<<<< Updated upstream
               "title": "DataCenter"
             }
           }
         ]
+=======
+              "title": "LAB 1"
+            }
+          },
+          {
+            "id": "98c0e81614169fc3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Center/LABS/LAB 1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "LAB 1"
+            }
+          }
+        ],
+        "currentTab": 1
+>>>>>>> Stashed changes
       }
     ],
     "direction": "vertical"
@@ -88,7 +128,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ed8256b474161006",
@@ -179,6 +220,7 @@
       "bases:Create new base": false
     }
   },
+<<<<<<< Updated upstream
   "active": "59b00acc1405544f",
   "lastOpenFiles": [
     "Data Center/LABS/LAB 4.md",
@@ -189,6 +231,12 @@
     "Untitled.md",
     "Untitled 1.md",
     "English/Untitled.md",
+=======
+  "active": "98c0e81614169fc3",
+  "lastOpenFiles": [
+    "Data Center/LABS/LAB 1.md",
+    "Data Center/LABS/LAB 0.md",
+>>>>>>> Stashed changes
     "Data Center/COURS/Docker 2.0.md",
     "Data Center/COURS/Dock.md",
     "Data Center/COURS/DataCenter.md",
@@ -201,11 +249,20 @@
     "English/cours 1.md",
     "English/tp.md",
     "projet integration EVE.md",
+<<<<<<< Updated upstream
+=======
+    "Untitled.md",
+    "Untitled 1.md",
+>>>>>>> Stashed changes
     "WAN/Module 2 MPLS.md",
     "WAN/S5.md",
     "WAN/S4.md",
     "WAN/S3.md",
     "WAN/S2.md",
+<<<<<<< Updated upstream
+=======
+    "WAN/S1.md",
+>>>>>>> Stashed changes
     "Data Center/COURS",
     "Data Center/LABS",
     "Data Center",
@@ -213,6 +270,10 @@
     "images/Pasted image 20251025113338.png",
     "images/Pasted image 20251025113325.png",
     "images/Pasted image 20251024191533.png",
+<<<<<<< Updated upstream
+=======
+    "Security/TP/OpenSSL.md",
+>>>>>>> Stashed changes
     "images/WAN_Page_56.png",
     "images/WAN_Page_53.png",
     "images/WAN_Page_47.png",
