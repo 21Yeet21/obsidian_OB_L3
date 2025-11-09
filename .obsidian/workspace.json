@@ -4,24 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0db4edb95dfa467a",
+        "id": "d274119620591c08",
         "type": "tabs",
         "children": [
           {
-<<<<<<< Updated upstream
-            "id": "59b00acc1405544f",
-=======
-            "id": "c3d17e0c1eec5dd8",
->>>>>>> Stashed changes
+            "id": "5e3d575dbf3343bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< Updated upstream
-                "file": "Data Center/COURS/DataCenter.md",
-=======
-                "file": "Data Center/LABS/LAB 1.md",
->>>>>>> Stashed changes
+                "file": "MEA&CIS_CybersecurityEssentials/Cybersecurity Threats, Vulnerabilities, and Attacks/Common Threats.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -36,42 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-<<<<<<< Updated upstream
-              "title": "DataCenter"
+              "title": "Common Threats"
             }
           }
         ]
-=======
-              "title": "LAB 1"
-            }
-          },
-          {
-            "id": "98c0e81614169fc3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Center/LABS/LAB 1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "LAB 1"
-            }
-          }
-        ],
-        "currentTab": 1
->>>>>>> Stashed changes
       }
     ],
     "direction": "vertical"
@@ -219,72 +179,53 @@
       "bases:Create new base": false
     }
   },
-<<<<<<< Updated upstream
-  "active": "59b00acc1405544f",
+  "active": "5e3d575dbf3343bb",
   "lastOpenFiles": [
-    "Data Center/LABS/LAB 4.md",
-    "Data Center/LABS/LAB 2.md",
-    "Data Center/LABS/LAB 1.md",
-    "Data Center/LABS/LAB 0.md",
-    "Data Center/LABS/Extras.md",
-    "Untitled.md",
-    "Untitled 1.md",
-    "English/Untitled.md",
-=======
-  "active": "98c0e81614169fc3",
-  "lastOpenFiles": [
-    "Data Center/LABS/LAB 1.md",
-    "Data Center/LABS/LAB 0.md",
->>>>>>> Stashed changes
-    "Data Center/COURS/Docker 2.0.md",
-    "Data Center/COURS/Dock.md",
-    "Data Center/COURS/DataCenter.md",
-    "Security/TP/ACL.md",
-    "Security/Cours/S1.md",
-    "IOT/DVRT.md",
-    "IOT/Resume Twil.md",
-    "IOT/Resume 9sir.md",
-    "IOT/S1.md",
-    "English/cours 1.md",
-    "English/tp.md",
-    "projet integration EVE.md",
-<<<<<<< Updated upstream
-=======
-    "Untitled.md",
-    "Untitled 1.md",
->>>>>>> Stashed changes
-    "WAN/Module 2 MPLS.md",
-    "WAN/S5.md",
-    "WAN/S4.md",
-    "WAN/S3.md",
-    "WAN/S2.md",
-<<<<<<< Updated upstream
-=======
-    "WAN/S1.md",
->>>>>>> Stashed changes
-    "Data Center/COURS",
-    "Data Center/LABS",
-    "Data Center",
-    "images/Pasted image 20251025120259.png",
-    "images/Pasted image 20251025113338.png",
-    "images/Pasted image 20251025113325.png",
-    "images/Pasted image 20251024191533.png",
-<<<<<<< Updated upstream
-=======
-    "Security/TP/OpenSSL.md",
->>>>>>> Stashed changes
     "images/WAN_Page_56.png",
     "images/WAN_Page_53.png",
     "images/WAN_Page_47.png",
     "images/WAN_Page_46.png",
     "images/WAN_Page_36.png",
     "images/WAN_Page_18.png",
-    "English",
-    "IOT",
+    "images/WAN_Page_17.png",
+    "images/WAN_Page_16.png",
+    "images/WAN_Page_15.png",
+    "images/WAN_Page_13.png",
+    "images/Pasted image 20251025120259.png",
+    "WAN/S5.md",
+    "WAN/S4.md",
+    "WAN/S3.md",
+    "WAN/S2.md",
+    "WAN/S1.md",
+    "WAN/Module 2 MPLS.md",
+    "WAN/Module 1 Res.md",
+    "Security/TP/OpenSSL.md",
+    "Security/Cours/S1.md",
+    "Security/Cours",
+    "Metier/CV.md",
     "Metier",
+    "MEA&CIS_CybersecurityEssentials/Cybersecurity Threats, Vulnerabilities, and Attacks/Deception.md",
+    "IOT/Resume Twil.md",
+    "IOT/Resume 9sir.md",
+    "IOT/S1.md",
+    "IOT/DVRT.md",
+    "IOT",
+    "English/tp.md",
+    "English/cours 1.md",
+    "English",
+    "Data Center/LABS/LAB 4.md",
+    "Data Center/LABS/LAB 0.md",
+    "Data Center/LABS/LAB 2.md",
+    "Data Center/LABS/LAB 1.md",
+    "Data Center/COURS/Dock.md",
+    "Data Center/LABS/Extras.md",
+    "Data Center/COURS/Docker 2.0.md",
+    "Data Center/COURS/DataCenter.md",
+    "Data Center/LABS",
+    "Data Center/COURS",
+    "Data Center",
     "MEA&CIS_CybersecurityEssentials/Cybersecurity Threats, Vulnerabilities, and Attacks",
     "MEA&CIS_CybersecurityEssentials",
-    "images",
-    "CHEAT SHEED"
+    "images"
   ]
 }
