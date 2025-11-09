@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MEA&CIS_CybersecurityEssentials/Cybersecurity Threats, Vulnerabilities, and Attacks/Common Threats.md",
+                "file": "MEA&CIS_CybersecurityEssentials/Cybersecurity Threats, Vulnerabilities, and Attacks/05-Apps-Attacks.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Common Threats"
+              "title": "05-Apps-Attacks"
             }
           }
         ]
@@ -88,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ed8256b474161006",
@@ -181,6 +182,11 @@
   },
   "active": "5e3d575dbf3343bb",
   "lastOpenFiles": [
+    "MEA&CIS_CybersecurityEssentials/Cybersecurity Threats, Vulnerabilities, and Attacks/04-Wirless&Wifi-Attacks.md",
+    "MEA&CIS_CybersecurityEssentials/Cybersecurity Threats, Vulnerabilities, and Attacks/05-Apps-Attacks.md",
+    "MEA&CIS_CybersecurityEssentials/Cybersecurity Threats, Vulnerabilities, and Attacks/03-Cyber-Attacks.md",
+    "MEA&CIS_CybersecurityEssentials/Cybersecurity Threats, Vulnerabilities, and Attacks/02-Deception.md",
+    "MEA&CIS_CybersecurityEssentials/Cybersecurity Threats, Vulnerabilities, and Attacks/01-Common Threats.md",
     "images/WAN_Page_56.png",
     "images/WAN_Page_53.png",
     "images/WAN_Page_47.png",
@@ -191,7 +197,6 @@
     "images/WAN_Page_16.png",
     "images/WAN_Page_15.png",
     "images/WAN_Page_13.png",
-    "images/Pasted image 20251025120259.png",
     "WAN/S5.md",
     "WAN/S4.md",
     "WAN/S3.md",
@@ -204,7 +209,6 @@
     "Security/Cours",
     "Metier/CV.md",
     "Metier",
-    "MEA&CIS_CybersecurityEssentials/Cybersecurity Threats, Vulnerabilities, and Attacks/Deception.md",
     "IOT/Resume Twil.md",
     "IOT/Resume 9sir.md",
     "IOT/S1.md",
@@ -218,9 +222,6 @@
     "Data Center/LABS/LAB 2.md",
     "Data Center/LABS/LAB 1.md",
     "Data Center/COURS/Dock.md",
-    "Data Center/LABS/Extras.md",
-    "Data Center/COURS/Docker 2.0.md",
-    "Data Center/COURS/DataCenter.md",
     "Data Center/LABS",
     "Data Center/COURS",
     "Data Center",
