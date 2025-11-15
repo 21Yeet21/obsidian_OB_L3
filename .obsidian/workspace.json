@@ -1,19 +1,31 @@
 {
   "main": {
-    "id": "1c709f337343a728",
+    "id": "1c9e694071a91f97",
     "type": "split",
     "children": [
       {
+<<<<<<< Updated upstream
         "id": "d274119620591c08",
         "type": "tabs",
         "children": [
           {
             "id": "5e3d575dbf3343bb",
+=======
+        "id": "66d9f4ef3ab5be65",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a999b4a847ef9eea",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< Updated upstream
                 "file": "MEA&CIS_CybersecurityEssentials/Cybersecurity Threats, Vulnerabilities, and Attacks/05-Apps-Attacks.md",
+=======
+                "file": "WAN/TP/TP MPLS.md",
+>>>>>>> Stashed changes
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,24 +40,104 @@
                 }
               },
               "icon": "lucide-file",
+<<<<<<< Updated upstream
               "title": "05-Apps-Attacks"
             }
           }
         ]
+=======
+              "title": "TP MPLS"
+            }
+          },
+          {
+            "id": "9662e24418924a44",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "projet integration EVE.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "projet integration EVE"
+            }
+          },
+          {
+            "id": "10726f51fd3abfe2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Prep/Segment Routing.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Segment Routing"
+            }
+          },
+          {
+            "id": "1600bf91546fb94c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "VPN.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "VPN"
+            }
+          }
+        ],
+        "currentTab": 3
+>>>>>>> Stashed changes
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "566e88b9c07eb917",
+    "id": "e801f086077172e8",
     "type": "split",
     "children": [
       {
-        "id": "f841692747cb39ab",
+        "id": "fd73a038ad40c02e",
         "type": "tabs",
         "children": [
           {
-            "id": "29ae89d996452f6d",
+            "id": "1fae4eabc894e784",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -58,7 +150,7 @@
             }
           },
           {
-            "id": "61b2773cdf3e38bf",
+            "id": "35076eb8f30f33e7",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -75,7 +167,7 @@
             }
           },
           {
-            "id": "0ee32f39e4cded83",
+            "id": "0bbbe9d646756f8b",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -88,24 +180,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "ed8256b474161006",
+    "id": "b4a8c1e178d3e60c",
     "type": "split",
     "children": [
       {
-        "id": "4a0cc7654cb67c81",
+        "id": "15310424e85b6dd3",
         "type": "tabs",
         "children": [
           {
-            "id": "c0f511b3f94e57ef",
+            "id": "659385248870f895",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WAN.md",
+                "file": "PFE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,25 +206,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for WAN"
+              "title": "Backlinks for PFE"
             }
           },
           {
-            "id": "c42a87cec855d48c",
+            "id": "abb663600f2916f0",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WAN.md",
+                "file": "PFE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from WAN"
+              "title": "Outgoing links from PFE"
             }
           },
           {
-            "id": "bea49e856819222a",
+            "id": "06b91324c0c3cee3",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -148,18 +239,18 @@
             }
           },
           {
-            "id": "e1f3fa1acf40c9a2",
+            "id": "5b8dcac849f5973c",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "WAN.md",
+                "file": "PFE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WAN"
+              "title": "Outline of PFE"
             }
           }
         ]
@@ -180,6 +271,7 @@
       "bases:Create new base": false
     }
   },
+<<<<<<< Updated upstream
   "active": "5e3d575dbf3343bb",
   "lastOpenFiles": [
     "MEA&CIS_CybersecurityEssentials/Cybersecurity Threats, Vulnerabilities, and Attacks/04-Wirless&Wifi-Attacks.md",
@@ -228,5 +320,55 @@
     "MEA&CIS_CybersecurityEssentials/Cybersecurity Threats, Vulnerabilities, and Attacks",
     "MEA&CIS_CybersecurityEssentials",
     "images"
+=======
+  "active": "1fae4eabc894e784",
+  "lastOpenFiles": [
+    "images/Pasted image 20251113192403.png",
+    "images/Pasted image 20251113190025.png",
+    "images/Pasted image 20251113183704.png",
+    "images/Pasted image 20251113175624.png",
+    "images/Pasted image 20251113175609.png",
+    "images/Pasted image 20251113175444.png",
+    "images/Pasted image 20251113175148.png",
+    "images/Pasted image 20251113174727.png",
+    "images/Pasted image 20251113163702.png",
+    "images/Pasted image 20251113163518.png",
+    "images/Pasted image 20251113161235.png",
+    "MEA&CIS_CybersecurityEssentials/6-Network Security Infrastructure/01-Security Devices.md",
+    "MEA&CIS_CybersecurityEssentials/6-Network Security Infrastructure",
+    "MEA&CIS_CybersecurityEssentials/5-Wirless Network Communication/03-Secure WLANs.md",
+    "MEA&CIS_CybersecurityEssentials/5-Wirless Network Communication/02-WLAN Threats.md",
+    "MEA&CIS_CybersecurityEssentials/5-Wirless Network Communication/01-Wirless Communication.md",
+    "MEA&CIS_CybersecurityEssentials/5-Wirless Network Communication",
+    "MEA&CIS_CybersecurityEssentials/4-Attacking/03-Mitigating Common Network Attacks.md",
+    "MEA&CIS_CybersecurityEssentials/4-Attacking/02-Entreprise services.md",
+    "MEA&CIS_CybersecurityEssentials/4-Attacking/01-IP Services.md",
+    "MEA&CIS_CybersecurityEssentials/4-Attacking",
+    "MEA&CIS_CybersecurityEssentials/3-Attacking the foundations/03-TCP and UDP Vulnerabilities.md",
+    "MEA&CIS_CybersecurityEssentials/3-Attacking the foundations/02-IP vulenrabilities.md",
+    "MEA&CIS_CybersecurityEssentials/3-Attacking the foundations/01-IP PDU Details.md",
+    "MEA&CIS_CybersecurityEssentials/3-Attacking the foundations",
+    "MEA&CIS_CybersecurityEssentials/2-Securing Networks/01-State affairs.md",
+    "MEA&CIS_CybersecurityEssentials/2-Securing Networks/02-Who is the attacker.md",
+    "MEA&CIS_CybersecurityEssentials/2-Securing Networks",
+    "MEA&CIS_CybersecurityEssentials/1-Cybersecurity Threats, Vulnerabilities, and Attacks/05-Apps-Attacks.md",
+    "MEA&CIS_CybersecurityEssentials/1-Cybersecurity Threats, Vulnerabilities, and Attacks/04-Wirless&Wifi-Attacks.md",
+    "MEA&CIS_CybersecurityEssentials/1-Cybersecurity Threats, Vulnerabilities, and Attacks/03-Cyber-Attacks.md",
+    "MEA&CIS_CybersecurityEssentials/1-Cybersecurity Threats, Vulnerabilities, and Attacks/02-Deception.md",
+    "MEA&CIS_CybersecurityEssentials/1-Cybersecurity Threats, Vulnerabilities, and Attacks/01-Common Threats.md",
+    "MEA&CIS_CybersecurityEssentials/1-Cybersecurity Threats, Vulnerabilities, and Attacks",
+    "projet integration EVE.md",
+    "VPN.md",
+    "Prep/Segment Routing.md",
+    "TEST.md",
+    "WAN/TP/TP MPLS.md",
+    "~$ojet integration EVE.md",
+    "Prep/TP_NAT_ACL_AAA.md",
+    "WAN/TP/TPLWAN.md",
+    "Cloud/Cours",
+    "Cloud/TP",
+    "Cloud",
+    "WAN/TP"
+>>>>>>> Stashed changes
   ]
 }
