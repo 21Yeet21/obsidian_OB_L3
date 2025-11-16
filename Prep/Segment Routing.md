@@ -13,5 +13,7 @@ Can fonction with a controller like imaster or without
 
 architecture 
 comparisation avec les autres technologie
-avantages et incenvinent
-max 10 diapot
+avantages et inconvinent
+max 12 diapot (one for plan one for conclusion so 10 is the go for content)
+
+
