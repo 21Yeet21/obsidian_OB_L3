@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "maail"
             }
+          },
+          {
+            "id": "a607feaa0b94f158",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Prtg.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Prtg"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -179,10 +204,22 @@
       "bases:Create new base": false
     }
   },
-  "active": "2beaa03a7de699c6",
+  "active": "a607feaa0b94f158",
   "lastOpenFiles": [
-    "Prep/Segment Routing.md",
+    "images/Pasted image 20251117191835.png",
+    "images/Pasted image 20251117191534.png",
+    "images/Pasted image 20251117185456.png",
+    "images/Pasted image 20251117184739.png",
+    "images/Pasted image 20251117182013.png",
+    "images/Pasted image 20251117180451.png",
+    "images/Pasted image 20251117174604.png",
+    "images/Pasted image 20251117174212.png",
+    "images/Pasted image 20251117174057.png",
+    "images/Pasted image 20251117173124.png",
+    "images/Pasted image 20251117172741.png",
     "maail.md",
+    "Prtg.md",
+    "Prep/Segment Routing.md",
     "Prep/TP_NAT_ACL_AAA.md",
     "PFE.md",
     "projet integration EVE.md",
