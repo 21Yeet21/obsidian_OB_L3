@@ -4,16 +4,28 @@
     "type": "split",
     "children": [
       {
+<<<<<<< Updated upstream
         "id": "ff7da534a7203d8f",
         "type": "tabs",
         "children": [
           {
             "id": "2beaa03a7de699c6",
+=======
+        "id": "66d9f4ef3ab5be65",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a999b4a847ef9eea",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< Updated upstream
                 "file": "Prtg.md",
+=======
+                "file": "WAN/TP/TP MPLS.md",
+>>>>>>> Stashed changes
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +40,90 @@
                 }
               },
               "icon": "lucide-file",
+<<<<<<< Updated upstream
               "title": "Prtg"
             }
           }
         ]
+=======
+              "title": "TP MPLS"
+            }
+          },
+          {
+            "id": "9662e24418924a44",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "projet integration EVE.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "projet integration EVE"
+            }
+          },
+          {
+            "id": "10726f51fd3abfe2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Prep/Segment Routing.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Segment Routing"
+            }
+          },
+          {
+            "id": "1600bf91546fb94c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "VPN.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "VPN"
+            }
+          }
+        ],
+        "currentTab": 3
+>>>>>>> Stashed changes
       }
     ],
     "direction": "vertical"
@@ -179,6 +271,7 @@
       "bases:Create new base": false
     }
   },
+<<<<<<< Updated upstream
   "active": "2beaa03a7de699c6",
   "lastOpenFiles": [
     "maail.md",
@@ -200,5 +293,55 @@
     "TEST.md",
     "VPN.md",
     "WAN/S5.md"
+=======
+  "active": "1fae4eabc894e784",
+  "lastOpenFiles": [
+    "VPN.md",
+    "Untitled.md",
+    "MEA&CIS_CybersecurityEssentials/Cybersecurity Threats, Vulnerabilities, and Attacks/05-Apps-Attacks.md",
+    "MEA&CIS_CybersecurityEssentials/Cybersecurity Threats, Vulnerabilities, and Attacks/03-Cyber-Attacks.md",
+    "MEA&CIS_CybersecurityEssentials/Cybersecurity Threats, Vulnerabilities, and Attacks/04-Wirless&Wifi-Attacks.md",
+    "MEA&CIS_CybersecurityEssentials/Cybersecurity Threats, Vulnerabilities, and Attacks/02-Deception.md",
+    "MEA&CIS_CybersecurityEssentials/Cybersecurity Threats, Vulnerabilities, and Attacks/01-Common Threats.md",
+    "MEA&CIS_CybersecurityEssentials/Cybersecurity Threats, Vulnerabilities, and Attacks",
+    "images/Pasted image 20251113192403.png",
+    "images/Pasted image 20251113190025.png",
+    "images/Pasted image 20251113183704.png",
+    "images/Pasted image 20251113175624.png",
+    "images/Pasted image 20251113175609.png",
+    "images/Pasted image 20251113175444.png",
+    "images/Pasted image 20251113175148.png",
+    "images/Pasted image 20251113174727.png",
+    "images/Pasted image 20251113163702.png",
+    "images/Pasted image 20251113163518.png",
+    "MEA&CIS_CybersecurityEssentials/6-Network Security Infrastructure/01-Security Devices.md",
+    "MEA&CIS_CybersecurityEssentials/6-Network Security Infrastructure",
+    "MEA&CIS_CybersecurityEssentials/5-Wirless Network Communication/03-Secure WLANs.md",
+    "MEA&CIS_CybersecurityEssentials/5-Wirless Network Communication/02-WLAN Threats.md",
+    "MEA&CIS_CybersecurityEssentials/5-Wirless Network Communication/01-Wirless Communication.md",
+    "MEA&CIS_CybersecurityEssentials/5-Wirless Network Communication",
+    "MEA&CIS_CybersecurityEssentials/4-Attacking/03-Mitigating Common Network Attacks.md",
+    "MEA&CIS_CybersecurityEssentials/4-Attacking/02-Entreprise services.md",
+    "MEA&CIS_CybersecurityEssentials/4-Attacking/01-IP Services.md",
+    "MEA&CIS_CybersecurityEssentials/4-Attacking",
+    "MEA&CIS_CybersecurityEssentials/3-Attacking the foundations/03-TCP and UDP Vulnerabilities.md",
+    "MEA&CIS_CybersecurityEssentials/3-Attacking the foundations/02-IP vulenrabilities.md",
+    "MEA&CIS_CybersecurityEssentials/3-Attacking the foundations/01-IP PDU Details.md",
+    "MEA&CIS_CybersecurityEssentials/3-Attacking the foundations",
+    "MEA&CIS_CybersecurityEssentials/2-Securing Networks/01-State affairs.md",
+    "MEA&CIS_CybersecurityEssentials/2-Securing Networks/02-Who is the attacker.md",
+    "MEA&CIS_CybersecurityEssentials/2-Securing Networks",
+    "MEA&CIS_CybersecurityEssentials/1-Cybersecurity Threats, Vulnerabilities, and Attacks/05-Apps-Attacks.md",
+    "MEA&CIS_CybersecurityEssentials/1-Cybersecurity Threats, Vulnerabilities, and Attacks/04-Wirless&Wifi-Attacks.md",
+    "MEA&CIS_CybersecurityEssentials/1-Cybersecurity Threats, Vulnerabilities, and Attacks/03-Cyber-Attacks.md",
+    "MEA&CIS_CybersecurityEssentials/1-Cybersecurity Threats, Vulnerabilities, and Attacks/02-Deception.md",
+    "MEA&CIS_CybersecurityEssentials/1-Cybersecurity Threats, Vulnerabilities, and Attacks/01-Common Threats.md",
+    "MEA&CIS_CybersecurityEssentials/1-Cybersecurity Threats, Vulnerabilities, and Attacks",
+    "projet integration EVE.md",
+    "Prep/Segment Routing.md",
+    "Cloud/Cours",
+    "Cloud/TP",
+    "Cloud"
+>>>>>>> Stashed changes
   ]
 }
