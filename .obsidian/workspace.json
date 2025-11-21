@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MEA&CIS_CybersecurityEssentials/8-Linux Overview/06-Working on a Linux Host.md",
+                "file": "MEA&CIS_CybersecurityEssentials/9-Cybersec Priciples , Paractices , and Processes/02-States of Data.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "06-Working on a Linux Host"
+              "title": "02-States of Data"
             }
           }
         ]
@@ -88,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d29abf0859b2fefc",
@@ -181,8 +182,18 @@
   },
   "active": "860be4f182ca878c",
   "lastOpenFiles": [
-    "MEA&CIS_CybersecurityEssentials/8-Linux Overview/05-The Linux File System.md",
+    "MEA&CIS_CybersecurityEssentials/9-Cybersec Priciples , Paractices , and Processes/01-The Three Dimensions.md",
+    "MEA&CIS_CybersecurityEssentials/9-Cybersec Priciples , Paractices , and Processes/02-States of Data.md",
+    "MEA&CIS_CybersecurityEssentials/8-Linux Overview/10-Application Security.md",
+    "MEA&CIS_CybersecurityEssentials/9-Cybersec Priciples , Paractices , and Processes",
+    "images/Pasted image 20251121184412.png",
+    "MEA&CIS_CybersecurityEssentials/8-Linux Overview/09-Host-Based Intrusion Prevention.md",
+    "MEA&CIS_CybersecurityEssentials/8-Linux Overview/08-Antimalware Protection.md",
+    "images/Pasted image 20251121180717.png",
+    "MEA&CIS_CybersecurityEssentials/8-Linux Overview/07-Defending Systems and Devices.md",
+    "images/Pasted image 20251121174839.png",
     "MEA&CIS_CybersecurityEssentials/8-Linux Overview/06-Working on a Linux Host.md",
+    "MEA&CIS_CybersecurityEssentials/8-Linux Overview/05-The Linux File System.md",
     "MEA&CIS_CybersecurityEssentials/8-Linux Overview/04-Basic Server Administration.md",
     "MEA&CIS_CybersecurityEssentials/8-Linux Overview/03-Linux Servers and Clients.md",
     "MEA&CIS_CybersecurityEssentials/8-Linux Overview/02-Working in the Linux Shell.md",
