@@ -1,31 +1,19 @@
 {
   "main": {
-    "id": "e0dcd777d5e3f4e3",
+    "id": "12498d5841427ec3",
     "type": "split",
     "children": [
       {
-<<<<<<< Updated upstream
-        "id": "ff7da534a7203d8f",
+        "id": "e20c1255eb5799a6",
         "type": "tabs",
         "children": [
           {
-            "id": "2beaa03a7de699c6",
-=======
-        "id": "66d9f4ef3ab5be65",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a999b4a847ef9eea",
->>>>>>> Stashed changes
+            "id": "860be4f182ca878c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< Updated upstream
-                "file": "Prtg.md",
-=======
-                "file": "WAN/TP/TP MPLS.md",
->>>>>>> Stashed changes
+                "file": "MEA&CIS_CybersecurityEssentials/8-Linux Overview/06-Working on a Linux Host.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,104 +28,24 @@
                 }
               },
               "icon": "lucide-file",
-<<<<<<< Updated upstream
-              "title": "Prtg"
+              "title": "06-Working on a Linux Host"
             }
           }
         ]
-=======
-              "title": "TP MPLS"
-            }
-          },
-          {
-            "id": "9662e24418924a44",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "projet integration EVE.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "projet integration EVE"
-            }
-          },
-          {
-            "id": "10726f51fd3abfe2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Prep/Segment Routing.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Segment Routing"
-            }
-          },
-          {
-            "id": "1600bf91546fb94c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "VPN.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "VPN"
-            }
-          }
-        ],
-        "currentTab": 3
->>>>>>> Stashed changes
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "d42e96e7d9885641",
+    "id": "197ebcc1274c9b60",
     "type": "split",
     "children": [
       {
-        "id": "8f90c6f1f21ebaba",
+        "id": "3d1c64269591fd09",
         "type": "tabs",
         "children": [
           {
-            "id": "3f95a48eb7761b58",
+            "id": "a4e23f0f45912a9a",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -150,7 +58,7 @@
             }
           },
           {
-            "id": "59aa102f40a590b9",
+            "id": "a477abd67698396d",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -167,7 +75,7 @@
             }
           },
           {
-            "id": "ccf62984240dc34c",
+            "id": "22081222fadb63a0",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -183,20 +91,20 @@
     "width": 300
   },
   "right": {
-    "id": "550fe2b4ba2460fb",
+    "id": "d29abf0859b2fefc",
     "type": "split",
     "children": [
       {
-        "id": "8fb99b99105267a2",
+        "id": "62694d38c49bbb42",
         "type": "tabs",
         "children": [
           {
-            "id": "89549de6249ce689",
+            "id": "f64bf917df419a77",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Prep/Segment Routing.md",
+                "file": "MEA&CIS_CybersecurityEssentials/7-The Windows OS/03-Windows Configuration and Monitoring.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,25 +114,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Segment Routing"
+              "title": "Backlinks for 03-Windows Configuration and Monitoring"
             }
           },
           {
-            "id": "2335b025ad1466b1",
+            "id": "0f8e3614dd23fcee",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Prep/Segment Routing.md",
+                "file": "MEA&CIS_CybersecurityEssentials/7-The Windows OS/03-Windows Configuration and Monitoring.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Segment Routing"
+              "title": "Outgoing links from 03-Windows Configuration and Monitoring"
             }
           },
           {
-            "id": "d4c2882dc2cd47be",
+            "id": "b7f39e28412eaee5",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -239,18 +147,18 @@
             }
           },
           {
-            "id": "52db8b907ff254ab",
+            "id": "2966ec4663440ca7",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Prep/Segment Routing.md",
+                "file": "MEA&CIS_CybersecurityEssentials/7-The Windows OS/03-Windows Configuration and Monitoring.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Segment Routing"
+              "title": "Outline of 03-Windows Configuration and Monitoring"
             }
           }
         ]
@@ -271,77 +179,25 @@
       "bases:Create new base": false
     }
   },
-<<<<<<< Updated upstream
-  "active": "2beaa03a7de699c6",
+  "active": "860be4f182ca878c",
   "lastOpenFiles": [
-    "maail.md",
-    "images/Pasted image 20251117191835.png",
-    "images/Pasted image 20251117191534.png",
-    "images/Pasted image 20251117185456.png",
-    "images/Pasted image 20251117184739.png",
-    "images/Pasted image 20251117182013.png",
-    "images/Pasted image 20251117180451.png",
-    "images/Pasted image 20251117174604.png",
-    "images/Pasted image 20251117174212.png",
-    "images/Pasted image 20251117174057.png",
-    "images/Pasted image 20251117173124.png",
-    "Prtg.md",
-    "Prep/Segment Routing.md",
-    "Prep/TP_NAT_ACL_AAA.md",
-    "PFE.md",
-    "projet integration EVE.md",
-    "TEST.md",
-    "VPN.md",
-    "WAN/S5.md"
-=======
-  "active": "1fae4eabc894e784",
-  "lastOpenFiles": [
-    "VPN.md",
-    "Untitled.md",
-    "MEA&CIS_CybersecurityEssentials/Cybersecurity Threats, Vulnerabilities, and Attacks/05-Apps-Attacks.md",
-    "MEA&CIS_CybersecurityEssentials/Cybersecurity Threats, Vulnerabilities, and Attacks/03-Cyber-Attacks.md",
-    "MEA&CIS_CybersecurityEssentials/Cybersecurity Threats, Vulnerabilities, and Attacks/04-Wirless&Wifi-Attacks.md",
-    "MEA&CIS_CybersecurityEssentials/Cybersecurity Threats, Vulnerabilities, and Attacks/02-Deception.md",
-    "MEA&CIS_CybersecurityEssentials/Cybersecurity Threats, Vulnerabilities, and Attacks/01-Common Threats.md",
-    "MEA&CIS_CybersecurityEssentials/Cybersecurity Threats, Vulnerabilities, and Attacks",
-    "images/Pasted image 20251113192403.png",
-    "images/Pasted image 20251113190025.png",
-    "images/Pasted image 20251113183704.png",
-    "images/Pasted image 20251113175624.png",
-    "images/Pasted image 20251113175609.png",
-    "images/Pasted image 20251113175444.png",
-    "images/Pasted image 20251113175148.png",
-    "images/Pasted image 20251113174727.png",
-    "images/Pasted image 20251113163702.png",
-    "images/Pasted image 20251113163518.png",
-    "MEA&CIS_CybersecurityEssentials/6-Network Security Infrastructure/01-Security Devices.md",
-    "MEA&CIS_CybersecurityEssentials/6-Network Security Infrastructure",
-    "MEA&CIS_CybersecurityEssentials/5-Wirless Network Communication/03-Secure WLANs.md",
-    "MEA&CIS_CybersecurityEssentials/5-Wirless Network Communication/02-WLAN Threats.md",
-    "MEA&CIS_CybersecurityEssentials/5-Wirless Network Communication/01-Wirless Communication.md",
-    "MEA&CIS_CybersecurityEssentials/5-Wirless Network Communication",
-    "MEA&CIS_CybersecurityEssentials/4-Attacking/03-Mitigating Common Network Attacks.md",
-    "MEA&CIS_CybersecurityEssentials/4-Attacking/02-Entreprise services.md",
-    "MEA&CIS_CybersecurityEssentials/4-Attacking/01-IP Services.md",
-    "MEA&CIS_CybersecurityEssentials/4-Attacking",
-    "MEA&CIS_CybersecurityEssentials/3-Attacking the foundations/03-TCP and UDP Vulnerabilities.md",
-    "MEA&CIS_CybersecurityEssentials/3-Attacking the foundations/02-IP vulenrabilities.md",
-    "MEA&CIS_CybersecurityEssentials/3-Attacking the foundations/01-IP PDU Details.md",
-    "MEA&CIS_CybersecurityEssentials/3-Attacking the foundations",
-    "MEA&CIS_CybersecurityEssentials/2-Securing Networks/01-State affairs.md",
-    "MEA&CIS_CybersecurityEssentials/2-Securing Networks/02-Who is the attacker.md",
-    "MEA&CIS_CybersecurityEssentials/2-Securing Networks",
-    "MEA&CIS_CybersecurityEssentials/1-Cybersecurity Threats, Vulnerabilities, and Attacks/05-Apps-Attacks.md",
-    "MEA&CIS_CybersecurityEssentials/1-Cybersecurity Threats, Vulnerabilities, and Attacks/04-Wirless&Wifi-Attacks.md",
-    "MEA&CIS_CybersecurityEssentials/1-Cybersecurity Threats, Vulnerabilities, and Attacks/03-Cyber-Attacks.md",
-    "MEA&CIS_CybersecurityEssentials/1-Cybersecurity Threats, Vulnerabilities, and Attacks/02-Deception.md",
-    "MEA&CIS_CybersecurityEssentials/1-Cybersecurity Threats, Vulnerabilities, and Attacks/01-Common Threats.md",
-    "MEA&CIS_CybersecurityEssentials/1-Cybersecurity Threats, Vulnerabilities, and Attacks",
-    "projet integration EVE.md",
-    "Prep/Segment Routing.md",
-    "Cloud/Cours",
-    "Cloud/TP",
-    "Cloud"
->>>>>>> Stashed changes
+    "MEA&CIS_CybersecurityEssentials/8-Linux Overview/05-The Linux File System.md",
+    "MEA&CIS_CybersecurityEssentials/8-Linux Overview/06-Working on a Linux Host.md",
+    "MEA&CIS_CybersecurityEssentials/8-Linux Overview/04-Basic Server Administration.md",
+    "MEA&CIS_CybersecurityEssentials/8-Linux Overview/03-Linux Servers and Clients.md",
+    "MEA&CIS_CybersecurityEssentials/8-Linux Overview/02-Working in the Linux Shell.md",
+    "MEA&CIS_CybersecurityEssentials/8-Linux Overview/01-Linux Basics.md",
+    "MEA&CIS_CybersecurityEssentials/7-The Windows OS/04-Windows Security.md",
+    "MEA&CIS_CybersecurityEssentials/8-Linux Overview",
+    "MEA&CIS_CybersecurityEssentials/7-The Windows OS/Untitled",
+    "MEA&CIS_CybersecurityEssentials/7-The Windows OS/03-Windows Configuration and Monitoring.md",
+    "MEA&CIS_CybersecurityEssentials/7-The Windows OS/02-Windows Architecture and Operations.md",
+    "images/Pasted image 20251121142630.png",
+    "images/Pasted image 20251121141912.png",
+    "images/Pasted image 20251121141906.png",
+    "MEA&CIS_CybersecurityEssentials/7-The Windows OS/01-Windows History.md",
+    "images/Pasted image 20251121141251.png",
+    "images/Pasted image 20251121141238.png",
+    "MEA&CIS_CybersecurityEssentials/7-The Windows OS"
   ]
 }
