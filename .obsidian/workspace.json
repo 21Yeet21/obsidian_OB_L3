@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MEA&CIS_CybersecurityEssentials/9-Cybersec Priciples , Paractices , and Processes/02-States of Data.md",
+                "file": "MEA&CIS_CybersecurityEssentials/12-Access Control/04-AAA usage and operation.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "02-States of Data"
+              "title": "04-AAA usage and operation"
             }
           }
         ]
@@ -88,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d29abf0859b2fefc",
@@ -182,31 +181,47 @@
   },
   "active": "860be4f182ca878c",
   "lastOpenFiles": [
-    "MEA&CIS_CybersecurityEssentials/9-Cybersec Priciples , Paractices , and Processes/01-The Three Dimensions.md",
-    "MEA&CIS_CybersecurityEssentials/9-Cybersec Priciples , Paractices , and Processes/02-States of Data.md",
-    "MEA&CIS_CybersecurityEssentials/8-Linux Overview/10-Application Security.md",
-    "MEA&CIS_CybersecurityEssentials/9-Cybersec Priciples , Paractices , and Processes",
+    "images/Pasted image 20251122143025.png",
+    "MEA&CIS_CybersecurityEssentials/12-Access Control/03-Account Management.md",
+    "MEA&CIS_CybersecurityEssentials/12-Access Control/04-AAA usage and operation.md",
+    "MEA&CIS_CybersecurityEssentials/12-Access Control/02-Access Control Concepts.md",
+    "MEA&CIS_CybersecurityEssentials/12-Access Control/01-Access Controls.md",
+    "MEA&CIS_CybersecurityEssentials/12-Access Control/Untitled",
+    "MEA&CIS_CybersecurityEssentials/11-System and Network Defense/07-Embedded and Specialized Systems.md",
+    "MEA&CIS_CybersecurityEssentials/12-Access Control",
+    "MEA&CIS_CybersecurityEssentials/Untitled.md",
+    "MEA&CIS_CybersecurityEssentials/11-System and Network Defense/06-Cybersecurity Resilience.md",
+    "MEA&CIS_CybersecurityEssentials/11-System and Network Defense/05-Hardening Wireless and Mobile Devices.md",
+    "MEA&CIS_CybersecurityEssentials/11-System and Network Defense/04-Network Hardening-Segmentation.md",
+    "images/Pasted image 20251122130155.png",
+    "MEA&CIS_CybersecurityEssentials/11-System and Network Defense/03-Network Hardening-Services and Protocols.md",
+    "MEA&CIS_CybersecurityEssentials/11-System and Network Defense/02-Application Security.md",
+    "MEA&CIS_CybersecurityEssentials/11-System and Network Defense/01-Physical Security.md",
+    "MEA&CIS_CybersecurityEssentials/10-Understanding Defence/03-Security Policies, Regulations, and Standards.md",
+    "MEA&CIS_CybersecurityEssentials/11-System and Network Defense",
+    "MEA&CIS_CybersecurityEssentials/10-Understanding Defence/02-Cybersecurity Operations Management.md",
+    "images/Pasted image 20251122120752.png",
+    "MEA&CIS_CybersecurityEssentials/10-Understanding Defence/01-Defense-in-Depth.md",
+    "MEA&CIS_CybersecurityEssentials/9-Cybersec Priciples , Paractices , and Processes/03-Cybersecurity Countermeasures.md",
+    "MEA&CIS_CybersecurityEssentials/10-Understanding Defence",
     "images/Pasted image 20251121184412.png",
+    "images/Pasted image 20251121180717.png",
+    "images/Pasted image 20251121174839.png",
+    "MEA&CIS_CybersecurityEssentials/9-Cybersec Priciples , Paractices , and Processes/02-States of Data.md",
+    "MEA&CIS_CybersecurityEssentials/9-Cybersec Priciples , Paractices , and Processes/01-The Three Dimensions.md",
+    "MEA&CIS_CybersecurityEssentials/9-Cybersec Priciples , Paractices , and Processes",
+    "MEA&CIS_CybersecurityEssentials/8-Linux Overview/10-Application Security.md",
     "MEA&CIS_CybersecurityEssentials/8-Linux Overview/09-Host-Based Intrusion Prevention.md",
     "MEA&CIS_CybersecurityEssentials/8-Linux Overview/08-Antimalware Protection.md",
-    "images/Pasted image 20251121180717.png",
     "MEA&CIS_CybersecurityEssentials/8-Linux Overview/07-Defending Systems and Devices.md",
-    "images/Pasted image 20251121174839.png",
     "MEA&CIS_CybersecurityEssentials/8-Linux Overview/06-Working on a Linux Host.md",
     "MEA&CIS_CybersecurityEssentials/8-Linux Overview/05-The Linux File System.md",
     "MEA&CIS_CybersecurityEssentials/8-Linux Overview/04-Basic Server Administration.md",
-    "MEA&CIS_CybersecurityEssentials/8-Linux Overview/03-Linux Servers and Clients.md",
-    "MEA&CIS_CybersecurityEssentials/8-Linux Overview/02-Working in the Linux Shell.md",
-    "MEA&CIS_CybersecurityEssentials/8-Linux Overview/01-Linux Basics.md",
-    "MEA&CIS_CybersecurityEssentials/7-The Windows OS/04-Windows Security.md",
     "MEA&CIS_CybersecurityEssentials/8-Linux Overview",
     "MEA&CIS_CybersecurityEssentials/7-The Windows OS/Untitled",
-    "MEA&CIS_CybersecurityEssentials/7-The Windows OS/03-Windows Configuration and Monitoring.md",
-    "MEA&CIS_CybersecurityEssentials/7-The Windows OS/02-Windows Architecture and Operations.md",
     "images/Pasted image 20251121142630.png",
     "images/Pasted image 20251121141912.png",
     "images/Pasted image 20251121141906.png",
-    "MEA&CIS_CybersecurityEssentials/7-The Windows OS/01-Windows History.md",
     "images/Pasted image 20251121141251.png",
     "images/Pasted image 20251121141238.png",
     "MEA&CIS_CybersecurityEssentials/7-The Windows OS"
