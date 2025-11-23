@@ -1,5 +1,6 @@
 {
   "main": {
+<<<<<<< Updated upstream
     "id": "12498d5841427ec3",
     "type": "split",
     "children": [
@@ -9,11 +10,26 @@
         "children": [
           {
             "id": "860be4f182ca878c",
+=======
+    "id": "8e9cee56530dd41b",
+    "type": "split",
+    "children": [
+      {
+        "id": "b1bc5884ca537b78",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "95e153d7fb97bdec",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< Updated upstream
                 "file": "MEA&CIS_CybersecurityEssentials/12-Access Control/04-AAA usage and operation.md",
+=======
+                "file": "Prtg.md",
+>>>>>>> Stashed changes
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,15 +44,48 @@
                 }
               },
               "icon": "lucide-file",
+<<<<<<< Updated upstream
               "title": "04-AAA usage and operation"
             }
           }
         ]
+=======
+              "title": "Prtg"
+            }
+          },
+          {
+            "id": "cbfe3ceebd89ecf6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          }
+        ],
+        "currentTab": 1
+>>>>>>> Stashed changes
       }
     ],
     "direction": "vertical"
   },
   "left": {
+<<<<<<< Updated upstream
     "id": "197ebcc1274c9b60",
     "type": "split",
     "children": [
@@ -46,6 +95,17 @@
         "children": [
           {
             "id": "a4e23f0f45912a9a",
+=======
+    "id": "c51a7578c5282382",
+    "type": "split",
+    "children": [
+      {
+        "id": "e48d39e58b1df151",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8b09d7a7d0632ac5",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -58,7 +118,11 @@
             }
           },
           {
+<<<<<<< Updated upstream
             "id": "a477abd67698396d",
+=======
+            "id": "530a3396542353fe",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "search",
@@ -75,7 +139,11 @@
             }
           },
           {
+<<<<<<< Updated upstream
             "id": "22081222fadb63a0",
+=======
+            "id": "6be83581699dc76a",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -88,9 +156,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
+<<<<<<< Updated upstream
     "id": "d29abf0859b2fefc",
     "type": "split",
     "children": [
@@ -100,11 +170,26 @@
         "children": [
           {
             "id": "f64bf917df419a77",
+=======
+    "id": "7a8fe35cbd85e974",
+    "type": "split",
+    "children": [
+      {
+        "id": "34eb01eb2f83faa4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e369ffaa77fffda8",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< Updated upstream
                 "file": "MEA&CIS_CybersecurityEssentials/7-The Windows OS/03-Windows Configuration and Monitoring.md",
+=======
+                "file": "Prtg.md",
+>>>>>>> Stashed changes
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,25 +199,45 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
+<<<<<<< Updated upstream
               "title": "Backlinks for 03-Windows Configuration and Monitoring"
             }
           },
           {
             "id": "0f8e3614dd23fcee",
+=======
+              "title": "Backlinks for Prtg"
+            }
+          },
+          {
+            "id": "b97a92ec4d93ee8c",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< Updated upstream
                 "file": "MEA&CIS_CybersecurityEssentials/7-The Windows OS/03-Windows Configuration and Monitoring.md",
+=======
+                "file": "Prtg.md",
+>>>>>>> Stashed changes
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
+<<<<<<< Updated upstream
               "title": "Outgoing links from 03-Windows Configuration and Monitoring"
             }
           },
           {
             "id": "b7f39e28412eaee5",
+=======
+              "title": "Outgoing links from Prtg"
+            }
+          },
+          {
+            "id": "738a70a36927faa6",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -147,18 +252,30 @@
             }
           },
           {
+<<<<<<< Updated upstream
             "id": "2966ec4663440ca7",
+=======
+            "id": "72ea709ead416f5c",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< Updated upstream
                 "file": "MEA&CIS_CybersecurityEssentials/7-The Windows OS/03-Windows Configuration and Monitoring.md",
+=======
+                "file": "Prtg.md",
+>>>>>>> Stashed changes
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
+<<<<<<< Updated upstream
               "title": "Outline of 03-Windows Configuration and Monitoring"
+=======
+              "title": "Outline of Prtg"
+>>>>>>> Stashed changes
             }
           }
         ]
@@ -179,6 +296,7 @@
       "bases:Create new base": false
     }
   },
+<<<<<<< Updated upstream
   "active": "860be4f182ca878c",
   "lastOpenFiles": [
     "images/Pasted image 20251122143025.png",
@@ -225,5 +343,26 @@
     "images/Pasted image 20251121141251.png",
     "images/Pasted image 20251121141238.png",
     "MEA&CIS_CybersecurityEssentials/7-The Windows OS"
+=======
+  "active": "cbfe3ceebd89ecf6",
+  "lastOpenFiles": [
+    "images/Pasted image 20251120130653.png",
+    "images/Pasted image 20251120130505.png",
+    "images/Pasted image 20251120130351.png",
+    "images/Pasted image 20251120130214.png",
+    "images/Pasted image 20251120125844.png",
+    "images/Pasted image 20251120125825.png",
+    "images/Pasted image 20251120125714.png",
+    "images/Pasted image 20251120124408.png",
+    "images/Pasted image 20251120124234.png",
+    "images/Pasted image 20251120124131.png",
+    "images/Pasted image 20251120124122.png",
+    "Prtg.md",
+    "Untitled.md",
+    "maail.md",
+    "VPN.md",
+    "TEST.md",
+    "~$Prtg.md"
+>>>>>>> Stashed changes
   ]
 }
