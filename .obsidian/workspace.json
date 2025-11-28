@@ -1,35 +1,19 @@
 {
   "main": {
-<<<<<<< Updated upstream
-    "id": "12498d5841427ec3",
+    "id": "2b8a66cf8710fd08",
     "type": "split",
     "children": [
       {
-        "id": "e20c1255eb5799a6",
+        "id": "cd0d706e56275391",
         "type": "tabs",
         "children": [
           {
-            "id": "860be4f182ca878c",
-=======
-    "id": "8e9cee56530dd41b",
-    "type": "split",
-    "children": [
-      {
-        "id": "b1bc5884ca537b78",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "95e153d7fb97bdec",
->>>>>>> Stashed changes
+            "id": "ed6132fe25087ea5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< Updated upstream
-                "file": "MEA&CIS_CybersecurityEssentials/12-Access Control/04-AAA usage and operation.md",
-=======
-                "file": "Prtg.md",
->>>>>>> Stashed changes
+                "file": "projet integration EVE.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -44,22 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-<<<<<<< Updated upstream
-              "title": "04-AAA usage and operation"
-            }
-          }
-        ]
-=======
-              "title": "Prtg"
+              "title": "projet integration EVE"
             }
           },
           {
-            "id": "cbfe3ceebd89ecf6",
+            "id": "24b2ed8ffede5b56",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "Pfsense.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -74,38 +52,24 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Pfsense"
             }
           }
-        ],
-        "currentTab": 1
->>>>>>> Stashed changes
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-<<<<<<< Updated upstream
-    "id": "197ebcc1274c9b60",
+    "id": "042ac546507b9565",
     "type": "split",
     "children": [
       {
-        "id": "3d1c64269591fd09",
+        "id": "41e66b3873395368",
         "type": "tabs",
         "children": [
           {
-            "id": "a4e23f0f45912a9a",
-=======
-    "id": "c51a7578c5282382",
-    "type": "split",
-    "children": [
-      {
-        "id": "e48d39e58b1df151",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "8b09d7a7d0632ac5",
->>>>>>> Stashed changes
+            "id": "c61cb45e26f087c8",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -118,11 +82,7 @@
             }
           },
           {
-<<<<<<< Updated upstream
-            "id": "a477abd67698396d",
-=======
-            "id": "530a3396542353fe",
->>>>>>> Stashed changes
+            "id": "fa1452a8754c71f5",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -139,11 +99,7 @@
             }
           },
           {
-<<<<<<< Updated upstream
-            "id": "22081222fadb63a0",
-=======
-            "id": "6be83581699dc76a",
->>>>>>> Stashed changes
+            "id": "bf2d18eecb8ec11b",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -160,36 +116,20 @@
     "collapsed": true
   },
   "right": {
-<<<<<<< Updated upstream
-    "id": "d29abf0859b2fefc",
+    "id": "ddf2b005e1343999",
     "type": "split",
     "children": [
       {
-        "id": "62694d38c49bbb42",
+        "id": "966d2f29686aa0c1",
         "type": "tabs",
         "children": [
           {
-            "id": "f64bf917df419a77",
-=======
-    "id": "7a8fe35cbd85e974",
-    "type": "split",
-    "children": [
-      {
-        "id": "34eb01eb2f83faa4",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e369ffaa77fffda8",
->>>>>>> Stashed changes
+            "id": "df6d92e575e3e648",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< Updated upstream
-                "file": "MEA&CIS_CybersecurityEssentials/7-The Windows OS/03-Windows Configuration and Monitoring.md",
-=======
-                "file": "Prtg.md",
->>>>>>> Stashed changes
+                "file": "projet integration EVE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,45 +139,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-<<<<<<< Updated upstream
-              "title": "Backlinks for 03-Windows Configuration and Monitoring"
+              "title": "Backlinks for projet integration EVE"
             }
           },
           {
-            "id": "0f8e3614dd23fcee",
-=======
-              "title": "Backlinks for Prtg"
-            }
-          },
-          {
-            "id": "b97a92ec4d93ee8c",
->>>>>>> Stashed changes
+            "id": "2676161e0fa54d0d",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< Updated upstream
-                "file": "MEA&CIS_CybersecurityEssentials/7-The Windows OS/03-Windows Configuration and Monitoring.md",
-=======
-                "file": "Prtg.md",
->>>>>>> Stashed changes
+                "file": "projet integration EVE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-<<<<<<< Updated upstream
-              "title": "Outgoing links from 03-Windows Configuration and Monitoring"
+              "title": "Outgoing links from projet integration EVE"
             }
           },
           {
-            "id": "b7f39e28412eaee5",
-=======
-              "title": "Outgoing links from Prtg"
-            }
-          },
-          {
-            "id": "738a70a36927faa6",
->>>>>>> Stashed changes
+            "id": "b6e27e38f42721b4",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -252,30 +172,18 @@
             }
           },
           {
-<<<<<<< Updated upstream
-            "id": "2966ec4663440ca7",
-=======
-            "id": "72ea709ead416f5c",
->>>>>>> Stashed changes
+            "id": "9aa509b37a95e3e4",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< Updated upstream
-                "file": "MEA&CIS_CybersecurityEssentials/7-The Windows OS/03-Windows Configuration and Monitoring.md",
-=======
-                "file": "Prtg.md",
->>>>>>> Stashed changes
+                "file": "projet integration EVE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-<<<<<<< Updated upstream
-              "title": "Outline of 03-Windows Configuration and Monitoring"
-=======
-              "title": "Outline of Prtg"
->>>>>>> Stashed changes
+              "title": "Outline of projet integration EVE"
             }
           }
         ]
@@ -296,73 +204,20 @@
       "bases:Create new base": false
     }
   },
-<<<<<<< Updated upstream
-  "active": "860be4f182ca878c",
+  "active": "ed6132fe25087ea5",
   "lastOpenFiles": [
-    "images/Pasted image 20251122143025.png",
-    "MEA&CIS_CybersecurityEssentials/12-Access Control/03-Account Management.md",
-    "MEA&CIS_CybersecurityEssentials/12-Access Control/04-AAA usage and operation.md",
-    "MEA&CIS_CybersecurityEssentials/12-Access Control/02-Access Control Concepts.md",
-    "MEA&CIS_CybersecurityEssentials/12-Access Control/01-Access Controls.md",
-    "MEA&CIS_CybersecurityEssentials/12-Access Control/Untitled",
-    "MEA&CIS_CybersecurityEssentials/11-System and Network Defense/07-Embedded and Specialized Systems.md",
-    "MEA&CIS_CybersecurityEssentials/12-Access Control",
-    "MEA&CIS_CybersecurityEssentials/Untitled.md",
-    "MEA&CIS_CybersecurityEssentials/11-System and Network Defense/06-Cybersecurity Resilience.md",
-    "MEA&CIS_CybersecurityEssentials/11-System and Network Defense/05-Hardening Wireless and Mobile Devices.md",
-    "MEA&CIS_CybersecurityEssentials/11-System and Network Defense/04-Network Hardening-Segmentation.md",
-    "images/Pasted image 20251122130155.png",
-    "MEA&CIS_CybersecurityEssentials/11-System and Network Defense/03-Network Hardening-Services and Protocols.md",
-    "MEA&CIS_CybersecurityEssentials/11-System and Network Defense/02-Application Security.md",
-    "MEA&CIS_CybersecurityEssentials/11-System and Network Defense/01-Physical Security.md",
-    "MEA&CIS_CybersecurityEssentials/10-Understanding Defence/03-Security Policies, Regulations, and Standards.md",
-    "MEA&CIS_CybersecurityEssentials/11-System and Network Defense",
-    "MEA&CIS_CybersecurityEssentials/10-Understanding Defence/02-Cybersecurity Operations Management.md",
-    "images/Pasted image 20251122120752.png",
-    "MEA&CIS_CybersecurityEssentials/10-Understanding Defence/01-Defense-in-Depth.md",
-    "MEA&CIS_CybersecurityEssentials/9-Cybersec Priciples , Paractices , and Processes/03-Cybersecurity Countermeasures.md",
-    "MEA&CIS_CybersecurityEssentials/10-Understanding Defence",
-    "images/Pasted image 20251121184412.png",
-    "images/Pasted image 20251121180717.png",
-    "images/Pasted image 20251121174839.png",
-    "MEA&CIS_CybersecurityEssentials/9-Cybersec Priciples , Paractices , and Processes/02-States of Data.md",
-    "MEA&CIS_CybersecurityEssentials/9-Cybersec Priciples , Paractices , and Processes/01-The Three Dimensions.md",
-    "MEA&CIS_CybersecurityEssentials/9-Cybersec Priciples , Paractices , and Processes",
-    "MEA&CIS_CybersecurityEssentials/8-Linux Overview/10-Application Security.md",
-    "MEA&CIS_CybersecurityEssentials/8-Linux Overview/09-Host-Based Intrusion Prevention.md",
-    "MEA&CIS_CybersecurityEssentials/8-Linux Overview/08-Antimalware Protection.md",
-    "MEA&CIS_CybersecurityEssentials/8-Linux Overview/07-Defending Systems and Devices.md",
-    "MEA&CIS_CybersecurityEssentials/8-Linux Overview/06-Working on a Linux Host.md",
-    "MEA&CIS_CybersecurityEssentials/8-Linux Overview/05-The Linux File System.md",
-    "MEA&CIS_CybersecurityEssentials/8-Linux Overview/04-Basic Server Administration.md",
-    "MEA&CIS_CybersecurityEssentials/8-Linux Overview",
-    "MEA&CIS_CybersecurityEssentials/7-The Windows OS/Untitled",
-    "images/Pasted image 20251121142630.png",
-    "images/Pasted image 20251121141912.png",
-    "images/Pasted image 20251121141906.png",
-    "images/Pasted image 20251121141251.png",
-    "images/Pasted image 20251121141238.png",
-    "MEA&CIS_CybersecurityEssentials/7-The Windows OS"
-=======
-  "active": "cbfe3ceebd89ecf6",
-  "lastOpenFiles": [
-    "images/Pasted image 20251120130653.png",
-    "images/Pasted image 20251120130505.png",
-    "images/Pasted image 20251120130351.png",
-    "images/Pasted image 20251120130214.png",
-    "images/Pasted image 20251120125844.png",
-    "images/Pasted image 20251120125825.png",
-    "images/Pasted image 20251120125714.png",
-    "images/Pasted image 20251120124408.png",
-    "images/Pasted image 20251120124234.png",
-    "images/Pasted image 20251120124131.png",
-    "images/Pasted image 20251120124122.png",
-    "Prtg.md",
-    "Untitled.md",
-    "maail.md",
+    "Pfsense.md",
+    "images/Pasted image 20251128161423.png",
+    "images/Pasted image 20251128161338.png",
+    "images/Pasted image 20251128161226.png",
+    "projet integration EVE.md",
+    "images/Pasted image 20251128160936.png",
     "VPN.md",
-    "TEST.md",
-    "~$Prtg.md"
->>>>>>> Stashed changes
+    "images/Pasted image 20251123170228.png",
+    "images/Pasted image 20251123170202.png",
+    "images/Pasted image 20251123170130.png",
+    "images/Pasted image 20251123154542.png",
+    "images/Pasted image 20251123153945.png",
+    "images/Pasted image 20251123153926.png"
   ]
 }

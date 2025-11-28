@@ -378,5 +378,72 @@ TRUNK VLAN 200
 
 ![[Pasted image 20251113212207.png]]
 
+interconnexion entre vlan 300 et 301
 
+![[Pasted image 20251123135350.png]]
+
+
+![[Pasted image 20251123135414.png]]
+
+WAN FW
+![[Pasted image 20251123135802.png]]
+
+![[Pasted image 20251123135645.png]]
+
+![[Pasted image 20251123135920.png]]
+
+
+
+![[Pasted image 20251123140429.png]]
+
+
+
+
+
+![[Pasted image 20251123141912.png]]
+![[Pasted image 20251123141940.png]]
+
+![[Pasted image 20251123142004.png]]
+
+du routeur vers vlan 100
+![[Pasted image 20251123142112.png]]
+
+![[Pasted image 20251123142503.png]]
+
+
+
+
+
+![[Pasted image 20251123153945.png]]
+
+
+
+![[Pasted image 20251123154542.png]]
+
+
+crypto isakmp policy 10
+ encryption des
+ hash sha256
+ authentication pre-share
+ group 2
+ lifetime 28800
+!
+crypto isakmp key Eve123 address 10.10.10.2
+
+
+ip access-list extended VPN-TRAFFIC
+ permit ip 192.168.30.0 0.0.0.255 172.16.0.64 0.0.0.63
+ permit ip 192.168.30.0 0.0.0.255 172.16.0.192 0.0.0.63
+
+
+
+show crypto ipsec sa
+
+![[Pasted image 20251123170130.png]]
+
+
+![[Pasted image 20251123170202.png]]
+
+
+![[Pasted image 20251123170228.png]]
 
